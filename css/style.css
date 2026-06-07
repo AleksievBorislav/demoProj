@@ -226,6 +226,15 @@ main {
   box-shadow: none;
 }
 
+.schedule-caption {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.schedule-caption p {
+  margin: 0;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
