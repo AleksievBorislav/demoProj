@@ -262,6 +262,25 @@ tr:last-child td {
   border-bottom: none;
 }
 
+/* Branch Banner */
+.branch-banner {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: var(--card-border);
+  border-left: 5px solid var(--color-green-accent);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0 1.5rem;
+  text-align: center;
+}
+
+.branch-banner h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
 /* Groups */
 .group-card {
   padding: 1.5rem;
@@ -289,10 +308,16 @@ tr:last-child td {
 }
 
 .group-card__title {
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.5rem;
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
+}
+
+.group-card__phone {
+  text-align: center;
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
 }
 
 .staff-row {
@@ -316,7 +341,7 @@ tr:last-child td {
 .staff-member__photo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .staff-member__name {
