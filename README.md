@@ -32,7 +32,7 @@ images/
   header/           — header-left.jpg, header-right.jpg
   home/             — home-photo-1.jpg, home-photo-2.jpg
   grupi/            — grupa-01-staff-01.jpg … grupa-08-staff-04.jpg
-  galeria/          — galeria-01.jpg … galeria-16.jpg
+  galeria/          — gallery photos (listed in galeria.html)
 ```
 
 ## Customize content
@@ -65,4 +65,4 @@ No build step required.
 | `images/header/header-left.jpg`, `header-right.jpg` | Header on every page |
 | `images/home/home-photo-*.jpg` | Home page image pair |
 | `images/grupi/grupa-XX-staff-YY.jpg` | Groups page (XX = group 01–08, YY = staff 01–04) |
-| `images/galeria/galeria-XX.jpg` | Gallery page |
+| `images/galeria/*` | Gallery page (add `<button>` entries in `galeria.html`) |
