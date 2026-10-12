@@ -545,12 +545,18 @@ tr:last-child td {
     font-size: 1.62rem;
   }
 
+  .site-nav {
+    position: static;
+    box-shadow: none;
+  }
+
   .nav-list {
     flex-direction: column;
   }
 
   .nav-list a {
     text-align: center;
+    padding: 0.65rem 1rem;
     border-bottom: 1px solid #eee;
   }
 
