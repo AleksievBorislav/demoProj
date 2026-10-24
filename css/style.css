@@ -184,6 +184,10 @@ main {
   color: var(--color-text-light);
 }
 
+.content-text .doc-list:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .doc-list li {
   margin-bottom: 0.5rem;
   padding-left: 0.25rem;
