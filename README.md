@@ -9,7 +9,7 @@ Static детска ясла website for GitHub Pages. Bulgarian content, plain 
 **Option B — local server (recommended for maps/gallery):**
 
 ```powershell
-cd "c:\Users\Borislav\Desktop\website kindergarden"
+cd path/to/demoProj
 python -m http.server 8080
 ```
 
